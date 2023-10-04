@@ -272,6 +272,11 @@ img {
   line-height: var(--text-line-height);
 }
 
+#sinTax{
+  padding: 10px 20px 50px 0px;
+  text-align: left;
+  color: rgba(202, 152, 248, 0.796);
+}
 .home__price {
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
