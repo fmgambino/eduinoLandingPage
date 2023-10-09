@@ -623,6 +623,10 @@ img {
     grid-template-columns: 142px;
     justify-content: center;
   }
+
+  #botonDescargar {
+    font-size: 9px;
+  }
 }
 
 /* For medium devices */
