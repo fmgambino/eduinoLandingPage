@@ -1,6 +1,5 @@
-// Obtener el elemento del contador y el botón
+// Obtener el elemento del contador
 const countElement = document.querySelector('.count');
-const incrementButton = document.getElementById('increment');
 
 // Función para incrementar el contador
 function incrementCounter() {
@@ -15,4 +14,4 @@ function incrementCounter() {
 }
 
 // Agregar un evento click al botón para llamar a la función de incremento
-incrementButton.addEventListener('click', incrementCounter);
+document.getElementById('increment').addEventListener('click', incrementCounter);
