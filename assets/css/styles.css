@@ -814,5 +814,10 @@ img {
   .footer__copy {
     margin-top: 9rem;
   }
+
+  .card {
+    margin: 3rem;
+    padding: 25px;
+  }
 }
 
