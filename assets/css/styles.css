@@ -581,6 +581,11 @@ img {
   background-color: var(--scroll-thumb-color-alt);
 }
 
+.card {
+  margin: 3rem;
+  padding: 25px;
+}
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
@@ -633,6 +638,11 @@ img {
     display: inline-block;
     border-radius: 0.5rem;
     transition: .3s;
+  }
+
+  .card {
+    margin: 3rem;
+    padding: 25px;
   }
 }
 
@@ -690,6 +700,11 @@ img {
     display: inline-block;
     border-radius: 0.5rem;
     transition: .3s;
+  }
+
+  .card {
+    margin: 3rem;
+    padding: 25px;
   }
 }
 
@@ -782,6 +797,10 @@ img {
     transition: .3s;
   }
 
+  .card {
+    margin: 3rem;
+    padding: 25px;
+  }
   
 }
 
