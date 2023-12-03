@@ -37,7 +37,6 @@ section
     padding: 2.5%;
     min-height: 100vh;
 }
-
 .title
 {
     font-size: 20px;
@@ -61,21 +60,11 @@ section
 {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: auto;
     overflow: hidden;
     outline: none;
 }
 
-#searchInput{
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    color: #dcdee1;
-    outline: none;
-    border: 2px solid #375666;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
 .playlistBx
 {
     position: relative;
@@ -90,7 +79,6 @@ section
     height: calc(100% - 40px);
     overflow-y: scroll;
     border-top: 1px solid #dcdee1;
-    padding-bottom: 42px; /* I forget to add this while I was recording this video please add this line if you don't add this property then the last li in the playlist will not show  */
 }
 .playlist::-webkit-scrollbar
 {
@@ -103,7 +91,7 @@ section
    color: #dcdee1;
    font-size: 15px;
    font-weight: 700;
-   margin-left: 20px;
+   margin-left: 40px;
    line-height: 40px;
 }
 .playlist li
@@ -180,7 +168,7 @@ ul li.playing .row span::before
     }
     .container #main-Video
     {
-        height: 400px;
+        height: 100%;
     }
     .playlistBx
     {
